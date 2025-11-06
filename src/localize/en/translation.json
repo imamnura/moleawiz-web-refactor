@@ -1,0 +1,837 @@
+{
+  "common": {
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next"
+  },
+  "main": {
+    "header": {
+      "learning_points": "Learning Points",
+      "dropdown_profile": {
+        "profile": "Profile",
+        "change_language": "Change Language",
+        "change_password": "Change Password",
+        "logout": "Logout"
+      }
+    },
+    "sidebar": {
+      "home": "Home",
+      "my_learning_journey": "My Learning Journey",
+      "content_library": "Content Library",
+      "rewards": "Rewards",
+      "redeem_history": "Redeem History",
+      "leaderboards": "Leaderboards",
+      "leaderboard": "Leaderboard",
+      "team_monitoring": "Team Monitoring",
+      "reviews": "Reviews",
+      "help_center": "Help Center",
+      "show_menu": "Show Menu",
+      "search_result": "Search Result"
+    },
+    "popup": {
+      "more": "More",
+      "close": "Close"
+    }
+  },
+  "error_page": {
+    "lost": "You are lost in space.",
+    "it_looks": "it looks like you've reached an uncharted sector.",
+    "maybe": "Maybe there's a typo in the address or the page has shifted positions."
+  },
+  "feature": {
+    "onboarding": {
+      "welcome_message": "Welcome to Cyber Security Training Hub",
+      "intro_message": "Begin your exciting learning journey with us.",
+      "elevate_competency": "Elevate Your Competency",
+      "competency_description": "You will find our modules that are designed to enhance your skills and knowledge, boosting your competency to keep you ahead.",
+      "build_portfolio": "Build Your Learning Portfolio",
+      "portfolio_description": "Your progress and dedication will be rewarded with certificates and badges, showcasing your accomplishments.",
+      "call_to_action": "Let's Begin"
+    },
+    "home": {
+      "main_content": {
+        "hi": "Hi,",
+        "lets_go": "Let's get started with your learning!",
+        "ongoing_course": "Ongoing Course",
+        "continue": "Continue",
+        "new_program": "New Program for You",
+        "available": "Available on",
+        "start": "Start",
+        "overdue_in_a_month": "Overdue in a month",
+        "lets_continue_before_late": "Let's continue before it's too late!",
+        "ongoing_program": "Ongoing Program",
+        "day_left": "day left",
+        "days_left": "days left"
+      },
+      "pop_up_change_password": {
+        "change_password": "Change Password",
+        "please_create_new_password": "Please create a new password for your account.",
+        "new_password": "New Password",
+        "confirm_new_password": "Confirm New Password",
+        "cancel": "Cancel",
+        "password_doesnt_match": "The password doesn’t match.",
+        "please_review": "Please review your input.",
+        "password_successfully_changed": "Password Successfully Changed",
+        "please_use_new_password_next_login": "Please use your new password the next time you log in.",
+        "ok": "OK"
+      },
+      "pop_up_logout": {
+        "are_you_sure_log_out": "Are you sure you want to log out?",
+        "no": "No",
+        "yes": "Yes"
+      },
+      "pop_up_change_language": {
+        "change_language": "Change Language",
+        "ok_change_language": "OK"
+      },
+      "pop_up_learning_history": {
+        "learning_points_history": "Learning Points History",
+        "you_have_earned": "You have earned",
+        "current_balance": "Current balance",
+        "points": "Points",
+        "module": "Module",
+        "completion_date": "Completion Date",
+        "points_earned": "Points",
+        "learn_more_to_earn_more": "Learn more to earn more",
+        "no_learning_points_history": "No Learning Points History.",
+        "click_button_bellow": "Click the button below to get points!"
+      },
+      "events": {
+        "event_sec": {
+          "upcoming_event": "Upcoming Event",
+          "tentative": "Tentative"
+        },
+        "event_popup": {
+          "tentative_notice": "You marked this event as tentative. Please confirm your attendance via email."
+        }
+      }
+    },
+    "feature_profile": {
+      "header": {
+        "profile": "Profile",
+        "role": "Role",
+        "username": "Username",
+        "registered_on": "Registered on",
+        "registered_date": "5 October 2023",
+        "export_profile": "Export Profile"
+      },
+      "main_content": {
+        "certificates": "Certificates",
+        "badges": "Badges",
+        "completed_program": "Completed Program"
+      },
+      "sec_certi": {
+        "earned_on": "Earned on",
+        "from": "From",
+        "view": "View"
+      },
+      "pop_up": {
+        "download": "Download"
+      },
+      "sec_badges": {
+        "earned_on_badges": "Earned on",
+        "from_badges": "Module"
+      },
+      "sec_completed_program": {
+        "completed_on": "Completed on",
+        "overview": "Overview"
+      },
+      "sec_popup_completed_program": {
+        "program": "Program",
+        "courses": "Courses",
+        "course": "Course",
+        "points_earned": "Points Earned",
+        "point_earned": "Point Earned"
+      },
+      "sec_certi_empty": {
+        "no_certificates_acquired": "No certificates acquired yet."
+      },
+      "sec_badges_empty": {
+        "no_badges_acquired": "No badges acquired yet."
+      },
+      "sec_program_empty": {
+        "no_program_completed": "No programs completed yet."
+      }
+    },
+    "feature_mylj": {
+      "anchor": {
+        "my_learning_journey": "My Learning Journey",
+        "filter": "Filter",
+        "all": "All",
+        "ongoing": "Ongoing",
+        "new": "New",
+        "completed": "Completed",
+        "overdue": "Overdue",
+        "days_left": "Days left",
+        "courses": "Courses",
+        "course": "Course",
+        "completed_label": "completed",
+        "continue": "Continue",
+        "start": "Start",
+        "restart": "Restart",
+        "supporting_modules": "Supporting Modules",
+        "quit_module": "Quit Module"
+      },
+      "side_dpd": {
+        "course_list": "Course List",
+        "essential_modules_completed": "Essential Modules Completed",
+        "side_dpd_courses": "Courses",
+        "side_dpd_course": "Course",
+        "perc_completed": "Completed",
+        "no_modules": "No modules available",
+        "no_courses": "No courses available",
+        "supporting_modules": "Supporting Modules"
+      },
+      "main_content": {
+        "program": "PROGRAM",
+        "days_left_program": "Days left",
+        "points_earned": "Points Earned",
+        "point_earned": "Point Earned",
+        "course_cap": "COURSE",
+        "module_cap": "MODULE",
+        "you_can_only_collect_points": "You can only collect points in the first",
+        "desc_attempt": "attempts.",
+        "module_type": "Module Type",
+        "grading_method": "Grading Method",
+        "number_of_attempts": "Number of Attempt",
+        "attempt_limit": "Attempt Limit",
+        "complete_module_to_get_badge": "Complete module to get this badge",
+        "access_permission_message": "Please allow access to camera, microphone, and location to access this module.",
+        "enter": "Enter",
+        "earned_on": "Earned on",
+        "module_locked_message": "You have reached the maximum number of attempts for this module.",
+        "ask_to_unlock": "Please contact your Learning Administrator for assistance.",
+        "complete_previous_module_message": "Please complete the previous module to unlock this module.",
+        "list_module": "Module",
+        "highest_score": "Highest Score",
+        "unlimited": "Unlimited"
+      },
+      "stream_scorm": {
+        "module_index": "Module",
+        "full_screen": "Full Screen"
+      },
+      "popup_quit_module": {
+        "quit_module_prompt": "Quit this module?",
+        "progress_warning": "Your progress will be lost",
+        "if_you_quit": "if you quit in the middle of a module.",
+        "no": "No",
+        "yes": "Yes"
+      },
+      "popup_rating": {
+        "points": "Points",
+        "badge": "Badge",
+        "rate_experience": "Please rate your learning experience",
+        "feedback_prompt": "Tell us more about your learning experience.",
+        "submit": "Submit",
+        "thank_you_feedback": "Thank you for your feedback!",
+        "your_input_helps": "Your input helps us improve and create a better learning experience for you.",
+        "ok_rating": "OK"
+      }
+    },
+    "feature_rewards": {
+      "anchor": {
+        "header": {
+          "exciting_rewards": "Here exciting rewards for you!",
+          "current_balance": "Current Balance",
+          "points": "Points",
+          "redeem_history": "Redeem History"
+        },
+        "main_content": {
+          "points": "Points",
+          "available": "Available",
+          "redeem": "Redeem",
+          "late_claim": "Ouch… you are a little bit late. Someone already claimed the last one."
+        }
+      },
+      "popup_detail_reward": {
+        "current_balance": "Current Balance",
+        "redeem_with": "Redeem with",
+        "new_balance": "New Balance",
+        "points": "Points",
+        "cancel": "Cancel",
+        "redeem": "Redeem",
+        "not_enough_points": "Not Enough Points",
+        "late_claim": "Ouch… you are a little bit late. Someone already claimed the last one."
+      },
+      "popup_oot": {
+        "reward_out_of_stock": "Reward Out of Stock",
+        "late_claim": "Ouch… you are a little bit late.",
+        "someone_already": "Someone already claimed the last one.",
+        "ok": "OK"
+      },
+      "popup_otp": {
+        "verify_your": "Verify Your Account",
+        "please_enter_the": "Please enter the verification code sent to",
+        "expire_in": "Expire in",
+        "verification_code": "Verification Code",
+        "verify": "Verify",
+        "back": "Back",
+        "incorrect_code": "The verification code you entered is incorrect.",
+        "too_many_attempts": "Too many failed verify attempts.",
+        "request_verification_code": "Request Verification Code",
+        "request_verification_code_mobile": "Request Code",
+        "verification_code_expired": "Verification code has expired."
+      },
+      "popup_earn_rewards": {
+        "earned_rewards": "YOU'VE EARNED REWARDS",
+        "save_code": "Please save this code to claim your reward",
+        "history": "History",
+        "close": "Close",
+        "redeem_code_copied": "Redeem Code Copied"
+      },
+      "emtpy_state": {
+        "rewards_not_available": "Rewards not available at this moment.",
+        "no_rewards_redeemed": "You haven't redeemed any reward."
+      },
+      "history": {
+        "redeem_history": "Redeem History",
+        "date_and_time": "Date & Time",
+        "product": "Product",
+        "points": "Points",
+        "redeem_code": "Redeem Code"
+      }
+    },
+    "feature_leaderboards": {
+      "header": {
+        "leaderboards": "Leaderboards",
+        "select_program": "Select Program",
+        "search_program": "Search program",
+        "company": "Company - digima ASIA",
+        "select_organization_level": "Select Organization Level",
+        "company_level": "Company",
+        "directorate_level": "Directorate",
+        "division_level": "Division",
+        "department_level": "Department",
+        "group_level": "Group",
+        "role": "Role"
+      },
+      "table": {
+        "rank": "Rank",
+        "name": "Name",
+        "score": "Score",
+        "you": "You"
+      },
+      "empty_state": {
+        "leaderboard_not_available": "Leaderboard not available.",
+        "no_programs_with_leaderboard": "You haven’t joined any programs with leaderboard yet.",
+        "no_participants_yet": "It seems like no one has started this program yet.",
+        "be_the_pioneer": "Be the pioneer and claim the top spot on the leaderboard!"
+      }
+    },
+    "feature_help": {
+      "header": {
+        "help_center": "Help Center"
+      },
+      "main_header": {
+        "assistance_prompt": "Is there anything we can help you?",
+        "showing": "Showing",
+        "showing_topic": "Topic"
+      },
+      "side_dpd": {
+        "spv_reviewer": "Monitoring",
+        "reviewer_b": "Review",
+        "help_topics": "Help Topics",
+        "frequently_asked_questions": "Frequently Asked Questions",
+        "login": "Login",
+        "profile": "Profile",
+        "my_learning_journey": "My Learning Journey",
+        "learning_activity": "Learning Activity",
+        "learning_point": "Learning Point",
+        "account_data_security": "Account Data & Security",
+        "others": "Others",
+        "terms_of_service": "Terms of Service",
+        "privacy_policy": "Privacy Policy",
+        "contact_more_help": "Need more help?",
+        "select_topic": "Select Topic"
+      }
+    },
+    "feature_cl": {
+      "tab_header": {
+        "content_library": "Content Library",
+        "collection": "Collection"
+      },
+      "main_card_cl": {
+        "programs": "Programs",
+        "program": "Program",
+        "enter": "Enter"
+      },
+      "empty_state_cl": {
+        "no_content_available_yet": "No content available yet"
+      },
+      "main_collection_card": {
+        "filter": "Filter",
+        "all": "All",
+        "program": "Program",
+        "course": "Course",
+        "module": "Module",
+        "enter": "Enter",
+        "completed": "Completed",
+        "remove_from_collection_ques": "Remove from Collection?",
+        "remove_from_collection": "Remove from Collection",
+        "program_cap": "PROGRAM",
+        "course_cap": "COURSE",
+        "module_cap": "MODULE"
+      },
+      "empty_state_collection": {
+        "you_have_no_collection": "You have no collection. Start adding your favorite content to see it here.",
+        "you_have_no_collection_only": "You have no collection.",
+        "you_have_no_collection_message": "Start adding your favorite content to see it here."
+      },
+      "empty_state_filt_program": {
+        "no_programs_found": "No programs found. Add some programs to build your collection",
+        "no_programs_found_only": "No programs found.",
+        "no_programs_found_message": "Add some programs to build your collection."
+      },
+      "empty_state_filt_courses": {
+        "no_courses_found": "No courses found. Add some courses to build your collection",
+        "no_courses_found_only": "No courses found.",
+        "no_courses_found_message": "Add some courses to build your collection."
+      },
+      "empty_state_filt_module": {
+        "no_modules_found": "No modules found. Add some modules to build your collection",
+        "no_modules_found_only": "No modules found.",
+        "no_modules_found_message": "Add some modules to build your collection."
+      },
+      "academy_page": {
+        "academy": "ACADEMY",
+        "courses": "Courses",
+        "course": "Course",
+        "enter": "Enter"
+      },
+      "program_desc": {
+        "academy": "ACADEMY",
+        "courses": "Courses",
+        "course": "Course",
+        "essential_modules": "Essential Modules",
+        "points_earned": "Points Earned",
+        "point_earned": "Point Earned",
+        "program": "Program",
+        "program_cap": "PROGRAM"
+      },
+      "course_desc": {
+        "courses": "Courses",
+        "program": "Program",
+        "essential_modules": "Essential Modules",
+        "supporting_modules": "Supporting Modules",
+        "course_cap": "COURSE",
+        "program_cap": "PROGRAM"
+      },
+      "module_desc": {
+        "module": "Module",
+        "module_cap": "MODULE",
+        "module_type": "Module Type",
+        "grading_method": "Grading Method",
+        "number_of_attempts": "Number of Attempts",
+        "attempt_limit": "Attempt Limit",
+        "highest_score": "Highest Score",
+        "unlimited": "Unlimited",
+        "enter": "Enter",
+        "quit_module": "Quit Module"
+      },
+      "collection_action": {
+        "add_to_collection": "Add to Collection",
+        "yes": "Yes",
+        "no": "No",
+        "program_snack": "Program",
+        "course_snack": "Course",
+        "module_snack": "Module",
+        "has_been_added": "has been added to your Collection.",
+        "has_been_remove": "has been removed from your Collection."
+      },
+      "cl_notification": {
+        "since": "Since you've been away,",
+        "since_mobile": "Since you away, here are",
+        "here_are": "here are the",
+        "here_are_mobile": "new updates in",
+        "cl_updates": "content library updates",
+        "cl_updates_mobile": "Content Library",
+        "program": "Program",
+        "course": "Course",
+        "module": "Module"
+      }
+    },
+    "feature_reviews": {
+      "anchor": {
+        "review_learner_submissions": "Let's review these learner submissions!",
+        "program": "Program",
+        "deadline": "Deadline",
+        "need_review": "Need Review",
+        "date_12_dec_2024": "12 Dec 2024",
+        "filter": "Filter",
+        "declined": "Declined",
+        "approved": "Approved",
+        "all": "All",
+        "submission": "Submission",
+        "submitted_on": "on",
+        "no": "No",
+        "yes": "Yes"
+      },
+      "empty_state": {
+        "no_submissions_need_review": "There are no submissions that need review.",
+        "no_submissions_declined": "No submissions have been declined yet.",
+        "no_submissions_approved": "No submissions have been approved yet.",
+        "no_submissions_all": "No submissions have been submitted yet."
+      },
+      "popup_review": {
+        "date_3_dec_2024": "3 Dec 2024",
+        "submission": "Submission",
+        "submitted_on": "on",
+        "accept": "Accept",
+        "reject": "Reject",
+        "see_previous_answer": "See previous answer",
+        "close_previous_answer": "Close previous answer",
+        "give_reason_optional": "(Optional)",
+        "give_reason_mandatory": "Give a reason (Mandatory)",
+        "overall_feedback": "Overall Feedback",
+        "overall_feedback_mandatory": "Give overall feedback to this learner (Optional)",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "incomplete_data": "Incomplete Data",
+        "cannot_edit_after_submit": "You can not edit the result after submit",
+        "fill_in_required_fields": "Fill in all required fields",
+        "ok": "OK",
+        "approved_submission_confirmation": "You Approved this submission,",
+        "declined_submission_confirmation": "You Declined this submission,",
+        "want_to_submit": "want to submit the result?",
+        "no": "No",
+        "yes": "Yes",
+        "next": "Next"
+      },
+      "popup_confirm": {
+        "review_successful": "Review submitted successfully! Thank you for your feedback.",
+        "quit_review": "Quit this review?",
+        "data_saved_warning": "Your entered data will be saved",
+        "no": "No",
+        "yes": "Yes"
+      },
+      "popup_result_review": {
+        "submission": "Submission",
+        "submitted_on": "on",
+        "date_3_dec_2024": "3 Dec 2024",
+        "approved": "Approved",
+        "accepted": "Accepted",
+        "rejected": "Rejected",
+        "overall_feedback": "Overall Feedback",
+        "declined": "Declined"
+      }
+    },
+    "feature_tm": {
+      "team_monitoring": "Team Monitoring",
+      "member": "Member",
+      "show_team_profile": "Show Team Profile",
+      "ongoing_team_program": "Ongoing Team Program",
+      "member_completed": "members completed",
+      "view": "View",
+      "learning_status": "Learning Status",
+      "show_all": "Show All",
+      "more": "More",
+      "cancel": "Cancel",
+      "close": "Close",
+      "select_progression_header_mobile": "Select Progression",
+      "ongoing_program": "Ongoing Program",
+      "learning_event": "Learning Event",
+      "show_calendar": "Show Calendar",
+      "date_31_dec_2024": "31 Dec 2024",
+      "member_no_program": "All your team members have no new program and/or already completed their programs.",
+      "selected_member": "Selected member",
+      "send_notification": "Notify by Email",
+      "send_notification_mobile": "Notify by Email",
+      "all_progress": "All Progress",
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "no": "No",
+      "team_member": "Team Member",
+      "progress": "Progress",
+      "role": "Role",
+      "last_access": "Last Access",
+      "date_30_oct_2024": "30 Oct 2024",
+      "team_profile": "Team Profile",
+      "search_name": "Search Name",
+      "name": "Name",
+      "role_directorate": "Role",
+      "directorate": "Directorate",
+      "division": "Division",
+      "department": "Department",
+      "group": "Group",
+      "calendar": "Calendar",
+      "today": "Today",
+      "confirmed": "Confirmed",
+      "not_confirmed": "Not Confirmed",
+      "declined": "Declined",
+      "username": "Username",
+      "registered_on": "Registered on",
+      "certificates": "Certificates",
+      "badges": "Badges",
+      "completed_program": "Completed Program",
+      "additional_learning": "Additional Learning",
+      "show_all_completed_programs": "Show all completed programs from My Learning Journey",
+      "show_all_completed_modules": "Show all completed modules from Content Library",
+      "earned_on": "Earned on",
+      "from": "Program",
+      "completed_on": "Completed on",
+      "overview": "Overview",
+      "program": "Program",
+      "courses": "Courses",
+      "course": "Course",
+      "points_earned": "Points Earned",
+      "point_earned": "Point Earned",
+      "module": "Module",
+      "no_certificates_acquired": "No certificates acquired yet.",
+      "no_badges_acquired": "No badges acquired yet.",
+      "not_completed_any_program": "No programs completed yet.",
+      "not_completed_any_module": "No modules completed yet."
+    },
+    "feature_search": {
+      "what_do_you": "What do you want to learn today?",
+      "search_results": "All result for",
+      "found": "found",
+      "program": "Program",
+      "course": "Course",
+      "module": "Module",
+      "explore": "Explore",
+      "view_all": "View All",
+      "in": "in",
+      "please_enter": "Please enter at least 3 characters to search.",
+      "limit_char_reach": "Character limit reached. Please refine your search."
+    },
+    "help_content": {
+      "faq": {
+        "t_1": {
+          "title": "If login fails, where can I get help?",
+          "desc_1": "If login fails after several attemps, click 'Forgot your password',",
+          "desc_2": "and follow the steps provided to receive a verification code to create a new password."
+        },
+        "t_2": {
+          "title": "What if there is no learning program on 'My Learning Journey'?",
+          "desc_1": "Please contact the PIC at your Learning and Development Department regarding this matter so they can register you to the appropriate programs."
+        },
+        "t_3": {
+          "title": "What should I do if an error occurs in a particular section of the learning module, such as a page freezing or going blank?",
+          "desc_1": "1. Please make sure your internet connection is stable.",
+          "desc_2": "2. Click the Refresh button in your browser.",
+          "desc_3": "If the problem persist, send a message to <strong>contact@digimasia.com</strong> describing the issue and attach the screenshot or screen record of the problems."
+        },
+        "t_4": {
+          "title": "What if the green checkmark doesn't appear after I have completed the module?",
+          "desc_1": "This could happen because the application is synchronizing the learning data with the server.",
+          "desc_2": "1. Wait for a few minutes to see if the checkmark appear.",
+          "desc_3": "2. If the checkmark still does not appear, click the Refresh button in your browser.",
+          "desc_4": "If the problem persist, send a message to <strong>contact@digimasia.com</strong> describing the issue and attach the screenshot or screen record of the problems."
+        },
+        "t_5": {
+          "title": "If I login from another computer, will my learning data still recorded?",
+          "desc_1": "Yes, all learning data associated with the same account will be recorded, regardless of the device you log in from."
+        }
+      },
+      "login": {
+        "t_1": {
+          "title": "Why do I always fail to log in?",
+          "desc_1": "Login failures can occur due to an unstable internet connection, an incorrect username and/or password, or an incorrect answer to the math question."
+        },
+        "t_2": {
+          "title": "If login fails, where can I get help?",
+          "desc_1": "If login fails after several attemps, click 'Forgot your password',",
+          "desc_2": "and follow the steps provided to receive a verification code to create a new password."
+        },
+        "t_3": {
+          "title": "What if I forget my username or password?",
+          "desc_1": "After you are registered by the PIC of the Learning and Development Department, you will receive an email informing you of your username and a temporary password for your first login. You will then be prompted to change that password.",
+          "desc_2": "If you forget your password, click 'Forgot your password?' and follow the instructions to create a new password."
+        }
+      },
+      "profile": {
+        "t_1": {
+          "title": "How do I change my profile photo?",
+          "desc_1": "To change your profile photo:",
+          "desc_2": "1. Click on your name at the upper right corner of the screen.",
+          "desc_3": "2. Select 'Profile' from the dropdown menu.",
+          "desc_4": "3. Click on the camera icon, then choose a photo from your computer."
+        },
+        "t_2": {
+          "title": "Can I see other Learner's profile?",
+          "desc_1": "Generally, a Learner can only view their own profile.",
+          "desc_2": "However, if you are a Supervisor, you can view the profiles of your team members in the 'Team Monitoring' menu."
+        },
+        "t_3": {
+          "title": "Can I send my profile to others?",
+          "desc_1": "Yes, click the 'Export Profile' button to save your profile as a PDF file. You can then send that file to others."
+        }
+      },
+      "mylj": {
+        "t_1": {
+          "title": "What is a 'Program'?",
+          "desc_1": "Program is a series of learning activities related to a particular topic, provided by your Learning and Development Department according to your role and/or learning needs. A program consists of several courses to be completed. The program list can be found in the 'My Learning Journey' menu."
+        },
+        "t_2": {
+          "title": "What is a 'Course'?",
+          "desc_1": "Course is a learning stage of a Program that must be completed. It consists of several learning modules."
+        },
+        "t_3": {
+          "title": "What is a 'Module'?",
+          "desc_1": "Module is a learning materials or activities that must be completed in a Course."
+        },
+        "t_4": {
+          "title": "How do I access the learning modules in 'My Learning Journey'?",
+          "desc_1": "Your learning program has been provided by your Learning and Development Department according to your learning needs, so you can start your learning right away. You can access the learning Program, Course, and Module through 'My Learning Journey'",
+          "desc_2": "or from the 'Home' page."
+        },
+        "t_5": {
+          "title": "What if there is no learning program on 'My Learning Journey'?",
+          "desc_1": "Please contact the PIC at your Learning and Development Department regarding this matter so they can register you to the appropriate programs."
+        },
+        "t_6": {
+          "title": "Do I have to learn each modules sequentially in a Course?",
+          "desc_1": "It depends on the nature of the Course. Not all modules must be learned sequentially. Modules that need to be learned in sequence will have a lock icon next to them, indicating that the module cannot be accessed until the preceding module has been completed."
+        },
+        "t_7": {
+          "title": "What is a Supporting Modules?",
+          "desc_1": "Supporting Modules are modules containing learning materials to support the main module (Essential Modules)."
+        },
+        "t_8": {
+          "title": "Do I have to complete all the Essential Modules and Supporting Modules for the Course to be considered complete?",
+          "desc_1": "No. You only have to complete all the Essential Modules to be considered has completed the Course. The Supporting Modules are not mandatory to be completed."
+        }
+      },
+      "learning_a": {
+        "t_1": {
+          "title": "What should I do if an error occurs in a particular section of the learning module, such as a page freezing or going blank?",
+          "desc_1": "1. Please make sure your internet connection is stable.",
+          "desc_2": "2. Click the Refresh button in your browser. ",
+          "desc_3": "If the problem persist, send a message to <strong>contact@digimasia.com</strong> describing the issue and attach the screenshot or screen record of the problems."
+        },
+        "t_2": {
+          "title": "What is the passing score for each module?",
+          "desc_1": "The passing score for each module varies and will be provided in each module."
+        },
+        "t_3": {
+          "title": "How many times can I repeat a module if I fail to meet the minimum passing score?",
+          "desc_1": "Each module has a different maximum number of attempts. Please pay attention to the 'Attempt Limit' in the module description."
+        },
+        "t_4": {
+          "title": "What indicates that a module has been completed?",
+          "desc_1": "In the module list of a Course, a green checkmark to the left of the module name indicates that the module has been completed."
+        },
+        "t_5": {
+          "title": "What if the green checkmark doesn't appear after I have completed the module?",
+          "desc_1": "This could happen because the application is synchronizing the learning data with the server.",
+          "desc_2": "1. Wait for a few minutes to see if the checkmark appear.",
+          "desc_3": "2. If the checkmark still does not appear, click the Refresh button in your browser.",
+          "desc_4": "If the problem persist, send a message to <strong>contact@digimasia.com</strong> describing the issue and attach the screenshot or screen record of the problems."
+        },
+        "t_6": {
+          "title": "How can I get a badge?",
+          "desc_1": "You can earn a badge after completing certain module. Not every module offers a badge, so be sure to check the information in the module description."
+        },
+        "t_7": {
+          "title": "What is 'Leaderboards'?",
+          "desc_1": "The Leaderboards menu shows the ranking of learners based on their scores in a particular learning program. Learner can see their position within the selected organizational unit (company-wide, directorate, division, and department)."
+        },
+        "t_8": {
+          "title": "What are the rules for position ranking in 'Leaderboards'?",
+          "desc_1": "Learner's position in the Leaderboard is based on their total score from a specific program. The learner who completes the program the fastest and achieves a higher score will be ranked higher on the Leaderboard."
+        },
+        "t_9": {
+          "title": "Can I learn other modules outside those in 'My Learning Journey'?",
+          "desc_1": "Yes, you can learn all modules found in the 'Content Library' menu."
+        },
+        "t_10": {
+          "title": "What is 'Collection' in the 'Content Library' menu?",
+          "desc_1": "'Collection' is a bucket of content that a learner is interested in from those available in the 'Content Library'.",
+          "desc_2": "To add content from the 'Content Library' to your 'Collection' tab, simply click the 'Add to Collection' button on the Program/Course/Module description page."
+        }
+      },
+      "learning_p": {
+        "t_1": {
+          "title": "Do all modules provide learning point?",
+          "desc_1": "Not all modules provide points. The amount and accumulation of points that you've earned are shown in the module description."
+        },
+        "t_2": {
+          "title": "What should I do if I did not get the learning point after completing a module that provides learning point?",
+          "desc_1": "Please make sure your internet connection is stable for application to communicate with the server. Wait for a few minutes until the learning points appear.",
+          "desc_2": "However, if the problem persists, send a message to <strong>contact@digimasia.com</strong> describing the issue and attach a screenshot or screen recording to prove that you've completed the module."
+        },
+        "t_3": {
+          "title": "How much learning point that I can earn from a Module?",
+          "desc_1": "The amount of Learning Point you can earn is based on your score after completing that Module. In some modules, you can earn points more than once. Please pay attention to the information provided in the module description."
+        },
+        "t_4": {
+          "title": "What is the benefit of learning point?",
+          "desc_1": "You can exchange Learning Point that you've collected for gifts listed in the 'Rewards' menu."
+        },
+        "t_5": {
+          "title": "How to exchange learning points with gift?",
+          "desc_1": "1. Click on the 'Rewards' menu.",
+          "desc_2": "2. Select the gift of your choice, then click the 'Redeem' button.",
+          "desc_3": "3. If your learning points are sufficient, follow the instructions to proceed to the verification process.",
+          "desc_4": "4. Write down the redeem code shown on screen, then inform that redeem code to the relevant PIC."
+        }
+      },
+      "m_n_review": {
+        "t_1": {
+          "title": "Can a Supervisor monitor their team members' learning progress?",
+          "desc_1": "Yes, through the 'Team Monitoring' menu."
+        },
+        "t_2": {
+          "title": "Can a supervisor validate certain learning modules that has been completed by team members?",
+          "desc_1": "Yes, for certain learning modules that requires a Supervisor to validate or assess the results, it can be done through the 'Reviews' menu."
+        },
+        "t_3": {
+          "title": "How can a Supervisor reviews and provide assessment?",
+          "desc_1": "1. Click the 'Reviews' menu.",
+          "desc_2": "2. Select a module to validate or assess from the list shown.",
+          "desc_3": "3. From the list of members that has completed that module, select a team member's name to review and validate their submission."
+        }
+      },
+      "data_n_security": {
+        "t_1": {
+          "title": "Are my learning activities always recorded?",
+          "desc_1": "Yes, all learning activities through the application are recorded, such as what modules have been completed and when they were completed."
+        },
+        "t_2": {
+          "title": "If I login from another computer, will my learning data still recorded?",
+          "desc_1": "Yes, all learning data associated with the same account will be recorded, regardless of the device you log in from."
+        },
+        "t_3": {
+          "title": "Can other people use my access account?",
+          "desc_1": "Not permitted. All learning data is stored in your account, including module completion times and scores, which will only be shared with your Supervisor and other relevant parties."
+        },
+        "t_4": {
+          "title": "Is my user account safe?",
+          "desc_1": "Yes. As long as you did not share your user access account and password to others, your account can only be accessed by you."
+        },
+        "t_5": {
+          "title": "How do I change my password?",
+          "desc_1": "1. Click of your name shown in the upper right corner of the screen.",
+          "desc_2": "2. Select 'Change Password' from the dropdown menu.",
+          "desc_3": "3. Enter your new password, then enter it again to make sure the new password you entered is correct.",
+          "desc_4": "4. Click 'Change Password' button.",
+          "desc_5": "Please change your password periodically to secure your account."
+        },
+        "t_6": {
+          "title": "Can other Learner see my learning score?",
+          "desc_1": "Except for certain interested parties such as the admin, your Supervisor, and the PIC in your Learning and Development Department, no other parties can see your learning score."
+        }
+      },
+      "others": {
+        "t_1": {
+          "title": "Do the learning activities in the application have an impact on my job?",
+          "desc_1": "Yes. Every learning module in 'My Learning Journey' menu is related to the knowledge and/or skill required in your current job."
+        },
+        "t_2": {
+          "title": "Can I use the application in working hours?",
+          "desc_1": "Of course. You can access the application for your learning needs any time."
+        },
+        "t_3": {
+          "title": "Can I use smartphone or tablet to access the application?",
+          "desc_1": "Yes, the application can be accessed using a browser on a smartphone or tablet. However, it is recommended to use a computer or laptop for the best viewing and learning experience."
+        }
+      }
+    }
+  }
+}

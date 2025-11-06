@@ -1,0 +1,7 @@
+export { default as HomeTitleText } from './HomeTitleText'
+export { default as Banner } from './Banner'
+export { default as OngoingCourse } from './OngoingCourse'
+export { default as NewPrograms } from './NewPrograms'
+export { default as ExpiringProgram } from './ExpiringProgram'
+export { default as OngoingPrograms } from './OngoingPrograms'
+export { default as UpcomingEvents } from './UpcomingEvents'

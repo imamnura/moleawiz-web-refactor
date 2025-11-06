@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="checklist" transform="translate(-1.25 -1.25)">
+    <path id="Path_1823304" data-name="Path 1823304" d="M10,0A10,10,0,1,1,0,10,10,10,0,0,1,10,0Z" transform="translate(1.25 1.25)" fill="#fff"/>
+    <path id="Path_1823303" data-name="Path 1823303" d="M9.738,16.158H9.689a.7.7,0,0,1-.509-.279L6.39,12.158a.7.7,0,0,1,1.116-.837L9.815,14.4l5.942-5.942a.7.7,0,0,1,.986.986l-6.512,6.512a.694.694,0,0,1-.493.2Z" transform="translate(-0.349 -0.49)" fill="#292929"/>
+  </g>
+</svg>

@@ -1,0 +1,419 @@
+@import 'tailwindcss';
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme {
+  /* Main Colors */
+  --color-primary: #123fa0;
+  --color-primary-hover: #000c52;
+  --color-primary-soft: #eef7ff;
+  --color-secondary: #eef7ff;
+  --color-secondary-hover: #d1e5f7;
+  --color-tertiary: #18b430;
+  --color-tertiary-hover: #029117;
+  --color-quaternary: #f2f7fd;
+  --color-disabled: #b7b7b7;
+  --color-grey: #dce5eb;
+
+  /* Background Colors */
+  --background-card: #ffffff;
+  --background-link-element: #e0eeff;
+  --background-thumb-carousel: #ffffff;
+  --background-linear-1: #0062e6;
+  --background-disabled-arrow: #ececec;
+  --background-disabled-button: #ececec;
+
+  /* Divider Colors */
+  --divider: #d1e1f4;
+
+  /* Text Colors */
+  --color-text-title: #292929;
+  --color-text-title-mobile: #212121;
+  --color-text-desc: #67686d;
+  --color-text-list: #aaaaad;
+  --color-text-search-input: #aaaaad;
+  --color-text-input: #292929;
+  --color-text-user-photo: #ffffff;
+  --color-text-not-found: #009cde;
+
+  /* Alert Colors */
+  --color-alert-red-light: #ffeeee;
+  --color-alert-red-dark: #c2272e;
+  --color-alert-expiring: #c2272e;
+  --color-warning-orange-light: #feb50d;
+
+  /* Border Colors */
+  --color-border-input-form: #dce0ea;
+  --color-border-error-input-form: #c2272e;
+  --color-border-secondary: #123fa0;
+  --color-border-collapse-cl: #e5e5e6;
+
+  /* Icon Colors */
+  --icon-check-color: #27ca40;
+  --icon-general-background: #ececec;
+  --icon-general-color: #292929;
+
+  /* Link Colors */
+  --color-link: #0563c1;
+  --link-hover: #0000ee;
+
+  /* Badge Colors */
+  --badge-new-background: #123fa0;
+
+  /* Table Colors */
+  --column-title-leaderboards: #e7ecef;
+
+  /* Transparent Colors */
+  --color-transparent-background-grey: #ececec;
+
+  /* Form Colors */
+  --grey-form-input: #dce0ea;
+
+  /* Progress Colors */
+  --green-progress: #19c433;
+  --progress-bar-circle: #123fa0;
+  --progress-bar-line: #123fa0;
+
+  /* Hover Colors */
+  --color-hover-red: #aa141a;
+
+  /* Status Colors */
+  --white-soft: #e8fbec;
+  --white-cream: #fceeee;
+  --white-more: #e5e5e6;
+  --yellow-star: #ffc401;
+  --orange-light: #f6ad42;
+  --switch-on-login: #18b430;
+}
+
+/* ============================================
+   BASE LAYER - Global resets and base styles
+   ============================================ */
+@layer base {
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #9ca3af;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #6b7280;
+  }
+
+  /* Ant Design global overrides */
+  .ant-layout {
+    background: #fafafa !important;
+  }
+}
+
+/* ============================================
+   COMPONENTS LAYER - Reusable component styles
+   ============================================ */
+@layer components {
+  /* ========== Buttons ========== */
+  .btn-primary {
+    background-color: #123fa0;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+
+  .btn-primary:hover {
+    background-color: #000c52;
+  }
+
+  .btn-primary:disabled {
+    background-color: #b7b7b7;
+    cursor: not-allowed;
+  }
+
+  .btn-secondary {
+    background-color: #eef7ff;
+    color: #123fa0;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+
+  .btn-secondary:hover {
+    background-color: #d1e5f7;
+  }
+
+  .btn-secondary:disabled {
+    background-color: #b7b7b7;
+    cursor: not-allowed;
+  }
+
+  .btn-tertiary {
+    background-color: #18b430;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+
+  .btn-tertiary:hover {
+    background-color: #029117;
+  }
+
+  .btn-tertiary:disabled {
+    background-color: #b7b7b7;
+    cursor: not-allowed;
+  }
+
+  /* ========== Cards ========== */
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+
+  /* ========== Form Inputs ========== */
+  .input-field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+  }
+
+  .input-field:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #123fa0;
+    border-color: transparent;
+  }
+
+  /* ========== Swiper Buttons ========== */
+  .swiper-button {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .swiper-button.btn-swiper-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* ========== Ant Design Component Overrides ========== */
+  .ant-dropdown-menu-item:hover {
+    background-color: #fff4ed !important;
+  }
+
+  /* ========== List Styles ========== */
+  .limit-list .ant-list-item {
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .limit-list .ant-list-item:hover {
+    background-color: #f3f4f6;
+  }
+
+  /* ========== Skeleton Loaders ========== */
+  .skeleton-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    background-color: #e5e7eb;
+    border-radius: 0.25rem;
+  }
+
+  /* ========== Journey Cards ========== */
+  .journey-card {
+    box-shadow: 3px 0 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+  }
+
+  .journey-card.desktop {
+    width: 228px;
+    max-width: 228px;
+  }
+
+  .journey-card.mobile {
+    width: 100%;
+  }
+
+  .journey-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  /* ========== Filter Radio Buttons ========== */
+  .radio-button-my-learning-journey .ant-radio-button-wrapper {
+    min-width: 92px;
+    text-align: center;
+    border-color: #123fa0;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+
+  .radio-button-my-learning-journey-mobile .ant-radio-button-wrapper {
+    width: max-content;
+    border-color: #123fa0;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+
+  /* ========== Journey Sidebar ========== */
+  .journey-sidebar .ant-layout-sider {
+    background: white;
+  }
+
+  .journey-course-collapse .ant-collapse-item {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+
+  .journey-course-collapse .ant-collapse-header {
+    padding: 12px 16px !important;
+    border-radius: 8px !important;
+    background: #f9fafb;
+    transition: all 0.2s;
+  }
+
+  .journey-course-collapse .ant-collapse-header:hover {
+    background: #f3f4f6;
+  }
+
+  .journey-course-collapse .ant-collapse-item-active .ant-collapse-header {
+    background: #eff6ff;
+    border-bottom: 1px solid #e5e7eb;
+    border-radius: 8px 8px 0 0 !important;
+  }
+
+  .journey-course-collapse .ant-collapse-content {
+    border: none;
+    background: white;
+  }
+
+  .journey-course-collapse .ant-collapse-content-box {
+    padding: 8px 4px;
+  }
+
+  /* Module Item States */
+  .module-completed {
+    background-color: #f0fdf4;
+  }
+
+  .module-unlocked {
+    background-color: #fefce8;
+  }
+
+  .module-locked {
+    background-color: #f9fafb;
+  }
+
+  /* Course Active State */
+  .course-active .title-course {
+    color: #123fa0;
+    font-weight: 600;
+  }
+}
+
+/* ============================================
+   UTILITIES LAYER - Custom utility classes
+   ============================================ */
+@layer utilities {
+  /* ========== Text Ellipsis Utilities ========== */
+  .break-dots-first-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .break-dots-second-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .break-dots-third-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Alternative naming for consistency */
+  .text-ellipsis-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .text-ellipsis-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .text-ellipsis-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ========== Scrollbar Utilities ========== */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background-color: #f9fafb;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 0.25rem;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: #9ca3af;
+  }
+}

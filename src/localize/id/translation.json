@@ -1,0 +1,837 @@
+{
+  "common": {
+    "loading": "Memuat",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "submit": "Kirim",
+    "back": "Kembali",
+    "next": "Selanjutnya"
+  },
+  "main": {
+    "header": {
+      "learning_points": "Poin Pembelajaran",
+      "dropdown_profile": {
+        "profile": "Profil",
+        "change_language": "Ganti Bahasa",
+        "change_password": "Ganti Kata Sandi",
+        "logout": "Keluar"
+      }
+    },
+    "sidebar": {
+      "home": "Halaman Utama",
+      "my_learning_journey": "Perjalanan Belajarku",
+      "content_library": "Perpustakaan Konten",
+      "rewards": "Hadiah",
+      "redeem_history": "Riwayat Penukaran",
+      "leaderboards": "Peringkat",
+      "leaderboard": "Peringkat",
+      "team_monitoring": "Pemantauan Tim",
+      "reviews": "Penilaian",
+      "help_center": "Pusat Bantuan",
+      "show_menu": "Lihat Menu",
+      "search_result": "Hasil Pencarian"
+    },
+    "popup": {
+      "more": "Selengkapnya",
+      "close": "Tutup"
+    }
+  },
+  "error_page": {
+    "lost": "Anda berada di luar jangkauan.",
+    "it_looks": "Sepertinya Anda telah memasuki halaman yang tidak dikenal.",
+    "maybe": "Mungkin terdapat kesalahan penulisan atau alamat website telah diubah."
+  },
+  "feature": {
+    "onboarding": {
+      "welcome_message": "Selamat Datang di Cyber Security Training Hub",
+      "intro_message": "Mulai pembelajaran yang menyenangkan bersama kami.",
+      "elevate_competency": "Tingkatkan Kompetensi Anda",
+      "competency_description": "Temukan modul-modul yang dirancang khusus untuk meningkatkan keterampilan dan pengetahuan Anda, serta membuat Anda menjadi pribadi yang unggul.",
+      "build_portfolio": "Bangun Portofolio Pembelajaran Anda",
+      "portfolio_description": "Pencapaian Anda akan diapresiasi dalam bentuk sertifikat dan lencana untuk menunjukkan prestasi Anda yang gemilang.",
+      "call_to_action": "Mulai"
+    },
+    "home": {
+      "main_content": {
+        "hi": "Hai,",
+        "lets_go": "Ayo mulai pembelajaran Anda!",
+        "ongoing_course": "Kursus Berjalan",
+        "continue": "Lanjutkan",
+        "new_program": "Program Baru untuk Anda",
+        "available": "Tersedia pada",
+        "start": "Mulai",
+        "overdue_in_a_month": "Target Penyelesaian Semakin Dekat",
+        "lets_continue_before_late": "Selesaikan pembelajaran sebelum batas waktu yang ditentukan!",
+        "ongoing_program": "Program Berjalan",
+        "day_left": "hari tersisa",
+        "days_left": "hari tersisa"
+      },
+      "pop_up_change_password": {
+        "change_password": "Ganti Kata Sandi",
+        "please_create_new_password": "Silakan buat kata sandi baru untuk akun Anda.",
+        "new_password": "Kata Sandi Baru",
+        "confirm_new_password": "Konfirmasi Kata Sandi Baru",
+        "cancel": "Batal",
+        "password_doesnt_match": "Kata sandi tidak cocok.",
+        "please_review": "Silakan periksa kembali.",
+        "password_successfully_changed": "Kata Sandi Berhasil Diganti",
+        "please_use_new_password_next_login": "Silakan gunakan kata sandi baru Anda saat kembali masuk.",
+        "ok": "OK"
+      },
+      "pop_up_logout": {
+        "are_you_sure_log_out": "Apakah Anda yakin ingin keluar?",
+        "no": "Tidak",
+        "yes": "Ya"
+      },
+      "pop_up_change_language": {
+        "change_language": "Ganti Bahasa",
+        "ok_change_language": "OK"
+      },
+      "pop_up_learning_history": {
+        "learning_points_history": "Riwayat Poin Pembelajaran",
+        "you_have_earned": "Total perolehan poin",
+        "current_balance": "Poin saat ini",
+        "points": "Poin",
+        "module": "Modul",
+        "completion_date": "Tanggal Selesai",
+        "points_earned": "Poin",
+        "learn_more_to_earn_more": "Belajar dan raih lebih banyak poin",
+        "no_learning_points_history": "Tidak ada Riwayat Poin Pembelajaran.",
+        "click_button_bellow": "Klik tombol di bawah untuk mendapatkan poin!"
+      },
+      "events": {
+        "event_sec": {
+          "upcoming_event": "Agenda Mendatang",
+          "tentative": "Tentatif"
+        },
+        "event_popup": {
+          "tentative_notice": "Anda memberikan respon tentatif pada agenda ini. Harap konfirmasi kehadiran Anda melalui email."
+        }
+      }
+    },
+    "feature_profile": {
+      "header": {
+        "profile": "Profil",
+        "role": "Jabatan",
+        "username": "Nama Pengguna",
+        "registered_on": "Terdaftar pada",
+        "registered_date": "5 Oktober 2023",
+        "export_profile": "Unduh Profil"
+      },
+      "main_content": {
+        "certificates": "Sertifikat",
+        "badges": "Lencana",
+        "completed_program": "Program Selesai"
+      },
+      "sec_certi": {
+        "earned_on": "Diperoleh pada",
+        "from": "Dari",
+        "view": "Lihat"
+      },
+      "pop_up": {
+        "download": "Unduh"
+      },
+      "sec_badges": {
+        "earned_on_badges": "Diperoleh pada",
+        "from_badges": "Modul"
+      },
+      "sec_completed_program": {
+        "completed_on": "Selesai pada",
+        "overview": "Ringkasan"
+      },
+      "sec_popup_completed_program": {
+        "program": "Program",
+        "courses": "Kursus",
+        "course": "Kursus",
+        "points_earned": "Poin Diperoleh",
+        "point_earned": "Poin Diperoleh"
+      },
+      "sec_certi_empty": {
+        "no_certificates_acquired": "Belum ada sertifikat yang diperoleh."
+      },
+      "sec_badges_empty": {
+        "no_badges_acquired": "Belum ada lencana yang diperoleh."
+      },
+      "sec_program_empty": {
+        "no_program_completed": "Belum ada program yang diselesaikan."
+      }
+    },
+    "feature_mylj": {
+      "anchor": {
+        "my_learning_journey": "Perjalanan Belajarku",
+        "filter": "Filter",
+        "all": "Semua",
+        "ongoing": "Berjalan",
+        "new": "Baru",
+        "completed": "Selesai",
+        "overdue": "Waktu Habis",
+        "days_left": "Hari tersisa",
+        "courses": "Kursus",
+        "course": "Kursus",
+        "completed_label": "selesai",
+        "continue": "Lanjutkan",
+        "start": "Mulai",
+        "restart": "Ulangi",
+        "supporting_modules": "Modul Pendukung",
+        "quit_module": "Keluar dari Modul"
+      },
+      "side_dpd": {
+        "course_list": "Daftar Kursus",
+        "essential_modules_completed": "Modul Esensial Selesai",
+        "side_dpd_courses": "Kursus",
+        "side_dpd_course": "Kursus",
+        "perc_completed": "Selesai",
+        "no_modules": "Tidak ada modul tersedia",
+        "no_courses": "Tidak ada kursus tersedia",
+        "supporting_modules": "Modul Pendukung"
+      },
+      "main_content": {
+        "program": "PROGRAM",
+        "days_left_program": "Hari tersisa",
+        "points_earned": "Poin Diperoleh",
+        "point_earned": "Poin Diperoleh",
+        "course_cap": "KURSUS",
+        "module_cap": "MODUL",
+        "you_can_only_collect_points": "Anda hanya dapat mengumpulkan poin dalam",
+        "desc_attempt": "percobaan pertama.",
+        "module_type": "Tipe Modul",
+        "grading_method": "Metode Penilaian",
+        "number_of_attempts": "Jumlah Percobaan",
+        "attempt_limit": "Batas Percobaan",
+        "complete_module_to_get_badge": "Selesaikan modul untuk mendapatkan lencana ini",
+        "access_permission_message": "Berikan izin akses ke kamera, mikrofon, dan lokasi untuk mengerjakan modul ini.",
+        "enter": "Masuk",
+        "earned_on": "Diperoleh pada",
+        "module_locked_message": "Anda telah mencapai batas percobaan maksimum untuk modul ini.",
+        "ask_to_unlock": "Silakan hubungi Administrator Pembelajaran Anda untuk mendapatkan bantuan.",
+        "complete_previous_module_message": "Harap selesaikan modul sebelumnya untuk mengakses modul ini.",
+        "list_module": "Modul",
+        "highest_score": "Skor Tertinggi",
+        "unlimited": "Tidak Terbatas"
+      },
+      "stream_scorm": {
+        "module_index": "Modul",
+        "full_screen": "Layar Penuh"
+      },
+      "popup_quit_module": {
+        "quit_module_prompt": "Keluar dari modul ini?",
+        "progress_warning": "Progres Anda akan hilang",
+        "if_you_quit": "jika Anda keluar di tengah modul.",
+        "no": "Tidak",
+        "yes": "Ya"
+      },
+      "popup_rating": {
+        "points": "Poin",
+        "badge": "Lencana",
+        "rate_experience": "Nilai pengalaman belajar Anda",
+        "feedback_prompt": "Ceritakan lebih banyak tentang pengalaman belajar Anda.",
+        "submit": "Kirim",
+        "thank_you_feedback": "Terima kasih atas masukan Anda!",
+        "your_input_helps": "Masukan Anda membantu kami menciptakan pengalaman belajar yang lebih baik untuk Anda.",
+        "ok_rating": "OK"
+      }
+    },
+    "feature_rewards": {
+      "anchor": {
+        "header": {
+          "exciting_rewards": "Hadiah menarik menanti Anda! ",
+          "current_balance": "Poin Saat Ini",
+          "points": "Poin",
+          "redeem_history": "Riwayat Penukaran"
+        },
+        "main_content": {
+          "points": "Poin",
+          "available": "Tersedia",
+          "redeem": "Tukar",
+          "late_claim": "Yah… Anda sedikit terlambat. Hadiah yang tersisa sudah diambil orang lain."
+        }
+      },
+      "popup_detail_reward": {
+        "current_balance": "Poin saat ini",
+        "redeem_with": "Tukar dengan",
+        "new_balance": "Sisa Poin",
+        "points": "Poin",
+        "cancel": "Batal",
+        "redeem": "Tukar",
+        "not_enough_points": "Poin Tidak Cukup",
+        "late_claim": "Yah… Anda sedikit terlambat. Hadiah yang tersisa sudah diambil orang lain."
+      },
+      "popup_oot": {
+        "reward_out_of_stock": "Hadiah Sudah Habis",
+        "late_claim": "Yah… Anda sedikit terlambat.",
+        "someone_already": "Hadiah yang tersisa sudah diambil orang lain.",
+        "ok": "OK"
+      },
+      "popup_otp": {
+        "verify_your": "Verifikasi Akun Anda",
+        "please_enter_the": "Masukkan kode verifikasi yang dikirim ke",
+        "expire_in": "Berakhir dalam",
+        "verification_code": "Kode Verifikasi",
+        "verify": "Verifikasi",
+        "back": "Kembali",
+        "incorrect_code": "Kode verifikasi yang Anda masukkan salah.",
+        "too_many_attempts": "Terlalu banyak percobaan verifikasi yang gagal",
+        "request_verification_code": "Minta Kode Verifikasi",
+        "request_verification_code_mobile": "Minta Kode",
+        "verification_code_expired": "Masa berlaku kode verifikasi telah berakhir."
+      },
+      "popup_earn_rewards": {
+        "earned_rewards": "ANDA MENDAPATKAN HADIAH",
+        "save_code": "Simpan kode ini untuk klaim hadiah Anda",
+        "history": "Riwayat",
+        "close": "Tutup",
+        "redeem_code_copied": "Kode Penukaran Berhasil Disalin"
+      },
+      "emtpy_state": {
+        "rewards_not_available": "Hadiah belum tersedia saat ini.",
+        "no_rewards_redeemed": "Anda belum menukarkan hadiah apa pun."
+      },
+      "history": {
+        "redeem_history": "Riwayat Penukaran",
+        "date_and_time": "Tanggal & Waktu",
+        "product": "Produk",
+        "points": "Poin",
+        "redeem_code": "Kode Penukaran"
+      }
+    },
+    "feature_leaderboards": {
+      "header": {
+        "leaderboards": "Peringkat",
+        "select_program": "Pilih Program",
+        "search_program": "Ketik nama program",
+        "company": "Perusahaan - digima ASIA",
+        "select_organization_level": "Pilih Tingkatan Organisasi",
+        "company_level": "Perusahaan",
+        "directorate_level": "Direktorat",
+        "division_level": "Divisi",
+        "department_level": "Departemen",
+        "group_level": "Grup",
+        "role": "Jabatan"
+      },
+      "table": {
+        "rank": "Posisi",
+        "name": "Nama",
+        "score": "Skor",
+        "you": "Anda"
+      },
+      "empty_state": {
+        "leaderboard_not_available": "Peringkat tidak tersedia.",
+        "no_programs_with_leaderboard": "Anda belum terdaftar pada program yang memiliki peringkat.",
+        "no_participants_yet": "Belum ada yang memulai program ini.",
+        "be_the_pioneer": "Jadilah yang pertama dan raih posisi tertinggi!"
+      }
+    },
+    "feature_help": {
+      "header": {
+        "help_center": "Pusat Bantuan"
+      },
+      "main_header": {
+        "assistance_prompt": "Ada yang bisa kami bantu?",
+        "showing": "Menampilkan Topik",
+        "showing_topic": ""
+      },
+      "side_dpd": {
+        "spv_reviewer": "Pemantauan",
+        "reviewer_b": "Penilaian",
+        "help_topics": "Topik Bantuan",
+        "frequently_asked_questions": "Pertanyaan yang Sering Diajukan",
+        "login": "Login",
+        "profile": "Profil",
+        "my_learning_journey": "Perjalanan Belajarku",
+        "learning_activity": "Aktivitas Belajar",
+        "learning_point": "Poin Pembelajaran",
+        "account_data_security": "Data & Keamanan Akun",
+        "others": "Lainnya",
+        "terms_of_service": "Ketentuan Layanan",
+        "privacy_policy": "Kebijakan Privasi",
+        "contact_more_help": "Butuh bantuan lebih lanjut?",
+        "select_topic": "Pilih Topik"
+      }
+    },
+    "feature_cl": {
+      "tab_header": {
+        "content_library": "Perpustakaan Konten",
+        "collection": "Koleksi"
+      },
+      "main_card_cl": {
+        "programs": "Program",
+        "program": "Program",
+        "enter": "Masuk"
+      },
+      "empty_state_cl": {
+        "no_content_available_yet": "Konten belum tersedia"
+      },
+      "main_collection_card": {
+        "filter": "Filter",
+        "all": "Semua",
+        "program": "Program",
+        "course": "Kursus",
+        "module": "Modul",
+        "enter": "Masuk",
+        "completed": "Selesai",
+        "remove_from_collection_ques": "Hapus dari Koleksi?",
+        "remove_from_collection": "Hapus dari Koleksi",
+        "program_cap": "PROGRAM",
+        "course_cap": "KURSUS",
+        "module_cap": "MODUL"
+      },
+      "empty_state_collection": {
+        "you_have_no_collection": "Anda belum memiliki koleksi. Tambahkan konten favorit Anda untuk melihatnya di sini.",
+        "you_have_no_collection_only": "Anda belum memiliki koleksi.",
+        "you_have_no_collection_message": "Tambahkan konten favorit Anda untuk melihatnya di sini."
+      },
+      "empty_state_filt_program": {
+        "no_programs_found": "Program tidak ditemukan. Tambahkan beberapa program pada koleksi Anda.",
+        "no_programs_found_only": "Program tidak ditemukan.",
+        "no_programs_found_message": "Tambahkan beberapa program pada koleksi Anda."
+      },
+      "empty_state_filt_courses": {
+        "no_courses_found": "Kursus tidak ditemukan. Tambahkan beberapa kursus pada koleksi Anda.",
+        "no_courses_found_only": "Kursus tidak ditemukan.",
+        "no_courses_found_message": "Tambahkan beberapa kursus pada koleksi Anda."
+      },
+      "empty_state_filt_module": {
+        "no_modules_found": "Modul tidak ditemukan. Tambahkan beberapa modul pada koleksi Anda.",
+        "no_modules_found_only": "Modul tidak ditemukan.",
+        "no_modules_found_message": "Tambahkan beberapa modul pada koleksi Anda."
+      },
+      "academy_page": {
+        "academy": "AKADEMI",
+        "courses": "Kursus",
+        "course": "Kursus",
+        "enter": "Masuk"
+      },
+      "program_desc": {
+        "academy": "AKADEMI",
+        "courses": "Kursus",
+        "course": "Kursus",
+        "essential_modules": "Modul Esensial",
+        "points_earned": "Poin Diperoleh",
+        "point_earned": "Poin Diperoleh",
+        "program": "Program",
+        "program_cap": "PROGRAM"
+      },
+      "course_desc": {
+        "courses": "Kursus",
+        "program": "Program",
+        "essential_modules": "Modul Esensial",
+        "supporting_modules": "Modul Pendukung",
+        "course_cap": "KURSUS",
+        "program_cap": "PROGRAM"
+      },
+      "module_desc": {
+        "module": "Modul",
+        "module_cap": "MODUL",
+        "module_type": "Tipe Modul",
+        "grading_method": "Metode Penilaian",
+        "number_of_attempts": "Jumlah Akses",
+        "attempt_limit": "Batas Percobaan",
+        "highest_score": "Skor Tertinggi",
+        "unlimited": "Tidak Terbatas",
+        "enter": "Masuk",
+        "quit_module": "Keluar dari Modul"
+      },
+      "collection_action": {
+        "add_to_collection": "Tambah ke Koleksi",
+        "yes": "Ya",
+        "no": "Tidak",
+        "program_snack": "Program",
+        "course_snack": "Kursus",
+        "module_snack": "Modul",
+        "has_been_added": "berhasil ditambahkan ke Koleksi Anda.",
+        "has_been_remove": "berhasil dihapus dari Koleksi Anda."
+      },
+      "cl_notification": {
+        "since": "Perpustakaan Konten telah diperbarui.",
+        "since_mobile": "Sejak Anda pergi, berikut adalah",
+        "here_are": "Cek selengkapnya",
+        "here_are_mobile": "pembaruan baru di",
+        "cl_updates": "di sini!",
+        "cl_updates_mobile": "Perpustakaan Konten",
+        "program": "Program",
+        "course": "Kursus",
+        "module": "Modul"
+      }
+    },
+    "feature_reviews": {
+      "anchor": {
+        "review_learner_submissions": "Ayo berikan penilaian tugas!",
+        "program": "Program",
+        "deadline": "Batas Waktu",
+        "need_review": "Perlu Dinilai",
+        "date_12_dec_2024": "12 Des 2024",
+        "filter": "Filter",
+        "declined": "Tidak Disetujui",
+        "approved": "Disetujui",
+        "all": "Semua",
+        "submission": "Tugas",
+        "submitted_on": "pada",
+        "no": "Tidak",
+        "yes": "Ya"
+      },
+      "empty_state": {
+        "no_submissions_need_review": "Belum ada tugas yang perlu dinilai.",
+        "no_submissions_declined": "Belum ada tugas yang tidak disetujui.",
+        "no_submissions_approved": "Belum ada tugas yang disetujui.",
+        "no_submissions_all": "Belum ada tugas yang dikirimkan."
+      },
+      "popup_review": {
+        "date_3_dec_2024": "3 Des 2024",
+        "submission": "Tugas",
+        "submitted_on": "pada",
+        "accept": "Terima",
+        "reject": "Tolak",
+        "see_previous_answer": "Lihat jawaban sebelumnya",
+        "close_previous_answer": "Tutup jawaban sebelumnya",
+        "give_reason_optional": "(Opsional)",
+        "give_reason_mandatory": "Berikan alasan (Wajib)",
+        "overall_feedback": "Saran Keseluruhan",
+        "overall_feedback_mandatory": "Berikan saran secara keseluruhan terhadap tugas ini (Opsional)",
+        "submit": "Kirim",
+        "cancel": "Batal",
+        "incomplete_data": "Data Belum Lengkap",
+        "cannot_edit_after_submit": "Anda tidak bisa mengubah penilaian setelah dikirim",
+        "fill_in_required_fields": "Lengkapi semua kolom penilaian yang wajib diisi.",
+        "ok": "OK",
+        "approved_submission_confirmation": "Penilaian tugas Disetujui,",
+        "declined_submission_confirmation": "Penilaian tugas Tidak Disetujui,",
+        "want_to_submit": "kirimkan hasilnya?",
+        "no": "Tidak",
+        "yes": "Ya",
+        "next": "Selanjutnya"
+      },
+      "popup_confirm": {
+        "review_successful": "Penilaian berhasil dikirim! Terima kasih atas saran yang Anda berikan.",
+        "quit_review": "Keluar dari penilaian ini?",
+        "data_saved_warning": "Penilaian sementara Anda akan tersimpan",
+        "no": "Tidak",
+        "yes": "Ya"
+      },
+      "popup_result_review": {
+        "submission": "Tugas",
+        "submitted_on": "pada",
+        "date_3_dec_2024": "3 Des 2024",
+        "approved": "Disetujui",
+        "accepted": "Diterima",
+        "rejected": "Ditolak",
+        "overall_feedback": "Saran Keseluruhan",
+        "declined": "Tidak Disetujui"
+      }
+    },
+    "feature_tm": {
+      "team_monitoring": "Pemantauan Tim",
+      "member": "Anggota",
+      "show_team_profile": "Lihat Profil Tim",
+      "ongoing_team_program": "Program Tim Berjalan",
+      "member_completed": "anggota telah selesai",
+      "view": "Lihat",
+      "learning_status": "Status Pembelajaran",
+      "show_all": "Lihat Semua",
+      "more": "Selengkapnya",
+      "cancel": "Kembali",
+      "close": "Tutup",
+      "select_progression_header_mobile": "Pilih Progres",
+      "ongoing_program": "Program Berjalan",
+      "learning_event": "Agenda Pembelajaran",
+      "show_calendar": "Lihat Kalender",
+      "date_31_dec_2024": "31 Des 2024",
+      "member_no_program": "Semua anggota tim Anda tidak memiliki program baru dan/atau sudah menyelesaikan program.",
+      "selected_member": "Anggota Dipilih",
+      "send_notification": "Kirim Notifikasi",
+      "send_notification_mobile": "Kirim Notifikasi",
+      "all_progress": "Semua Progres",
+      "ongoing": "Sedang Berjalan",
+      "completed": "Selesai",
+      "no": "No",
+      "team_member": "Anggota Tim",
+      "progress": "Progres",
+      "role": "Jabatan",
+      "last_access": "Akses Terakhir",
+      "date_30_oct_2024": "30 Okt 2024",
+      "team_profile": "Profil Tim",
+      "search_name": "Cari Nama",
+      "name": "Nama",
+      "role_directorate": "Jabatan",
+      "directorate": "Direktorat",
+      "division": "Divisi",
+      "department": "Departemen",
+      "group": "Grup",
+      "calendar": "Kalender",
+      "today": "Hari Ini",
+      "confirmed": "Akan Hadir",
+      "not_confirmed": "Belum Konfirmasi",
+      "declined": "Tidak Bisa Hadir",
+      "username": "Nama Pengguna",
+      "registered_on": "Terdaftar pada",
+      "certificates": "Sertifikat",
+      "badges": "Lencana",
+      "completed_program": "Program Selesai",
+      "additional_learning": "Pembelajaran Tambahan",
+      "show_all_completed_programs": "Lihat semua program yang telah selesai dari Perjalanan Belajarku",
+      "show_all_completed_modules": "Lihat semua program yang telah selesai dari Perpustakaan Konten",
+      "earned_on": "Diperoleh pada",
+      "from": "Program",
+      "completed_on": "Selesai pada",
+      "overview": "Ringkasan",
+      "program": "Program",
+      "courses": "Kursus",
+      "course": "Kursus",
+      "points_earned": "Poin Diperoleh",
+      "point_earned": "Poin Diperoleh",
+      "module": "Modul",
+      "no_certificates_acquired": "Belum ada sertifikat yang diperoleh.",
+      "no_badges_acquired": "Belum ada lencana yang diperoleh.",
+      "not_completed_any_program": "Belum ada program yang diselesaikan.",
+      "not_completed_any_module": "Belum ada modul yang diselesaikan."
+    },
+    "feature_search": {
+      "what_do_you": "Ingin belajar apa hari ini?",
+      "search_results": "Seluruh temuan untuk",
+      "found": "temuan",
+      "program": "Program",
+      "course": "Kursus",
+      "module": "Modul",
+      "explore": "Telusuri",
+      "view_all": "Tampilkan Semua",
+      "in": "pada",
+      "please_enter": "Ketik minimal 3 karakter untuk memulai pencarian.",
+      "limit_char_reach": "Jumlah karakter telah mencapai batas. Optimalkan kata kunci pencarian Anda."
+    },
+    "help_content": {
+      "faq": {
+        "t_1": {
+          "title": "Jika gagal <i>login</i>, ke mana saya bisa mendapatkan bantuan?",
+          "desc_1": "Jika selalu gagal ketika <i>login</i>, klik 'Forgot your password'.",
+          "desc_2": "Ikuti langkah - langkah yang tersedia untuk mendapatkan kode verifikasi dan membuat kata sandi (<i>password</i>) baru."
+        },
+        "t_2": {
+          "title": "Bagaimana jika tidak terdapat program pembelajaran pada 'Perjalanan Belajarku'?",
+          "desc_1": "Hubungi Tim Learning and Development untuk didaftarkan pada program belajar Anda."
+        },
+        "t_3": {
+          "title": "Bagaimana jika pada bagian modul tertentu terjadi <i>error</i>, misalnya: halaman modul <i>hang/freeze</i> dan <i>blank</i>?",
+          "desc_1": "1. Pastikan koneksi internet dalam keadaan stabil.",
+          "desc_2": "2. Lakukan <i>refresh</i> pada <i>browser</i>.",
+          "desc_3": "Jika tidak ada perubahan, kirim pengaduan ke <strong>contact@digimasia.com</strong> dengan melampirkan <i>screenshoot</i> atau <i>screen record</i> dari tampilan yang mengalami kendala."
+        },
+        "t_4": {
+          "title": "Bagaimana jika tanda centang tidak muncul saat saya sudah menyelesaikan modul?",
+          "desc_1": "Hal ini dapat Anda alami karena aplikasi sedang melakukan sinkronisasi data pembelajaran ke server.",
+          "desc_2": "1. Tunggu beberapa menit untuk melihat tanda centang tersebut muncul secara otomatis.",
+          "desc_3": "2. Jika tidak muncul, <i>refresh</i> halaman <i>browser</i>.",
+          "desc_4": "Jika tidak ada perubahan, kirim pengaduan ke <strong>contact@digimasia.com</strong> dengan melampirkan <i>screenshoot</i> atau <i>screen record</i> dari modul yang tidak centang."
+        },
+        "t_5": {
+          "title": "Jika <i>login</i> pada komputer atau laptop lain, apakah data pembelajaran akan tetap tercatat?",
+          "desc_1": "Ya, seluruh data pembelajaran pada akun yang sama akan tetap tercatat walaupun <i>login</i> pada komputer atau laptop lain."
+        }
+      },
+      "login": {
+        "t_1": {
+          "title": "Apa yang dapat menyebabkan saya gagal <i>login</i>?",
+          "desc_1": "Gagal <i>login</i> bisa terjadi karena koneksi internet yang kurang stabil atau kesalahan saat memasukkan nama pengguna (<i>username</i>), kata sandi (<i>password</i>), dan kesalahan dalam menuliskan hasil penjumlahan."
+        },
+        "t_2": {
+          "title": "Jika gagal <i>login</i>, ke mana saya bisa mendapatkan bantuan?",
+          "desc_1": "Jika selalu gagal ketika <i>login</i>, klik 'Forgot your password'.",
+          "desc_2": "Ikuti langkah - langkah yang tersedia untuk mendapatkan kode verifikasi dan membuat kata sandi (<i>password</i>) baru."
+        },
+        "t_3": {
+          "title": "Jika lupa nama pengguna (<i>username</i>) atau kata sandi (<i>password</i>), bagaimana cara mengetahuinya?",
+          "desc_1": "Setelah didaftarkan oleh Tim Learning and Development, Anda akan mendapatkan e-mail terkait informasi nama pengguna (<i>username</i>) & kata sandi sementara (<i>temporary password</i>) untuk kebutuhan <i>login</i> pertama kali. Selanjutnya, Anda akan diminta membuat kata sandi (<i>password</i>) untuk kebutuhan <i>login</i> berikutnya.",
+          "desc_2": "Jika Anda melupakan kata sandi (<i>password</i>) yang telah dibuat, klik 'Forgot your password' untuk membuat kata sandi (<i>password</i>) baru."
+        }
+      },
+      "profile": {
+        "t_1": {
+          "title": "Bagaimana cara mengganti foto profil?",
+          "desc_1": "Anda dapat mengganti foto profil dengan melakukan langkah-langkah sebagai berikut:",
+          "desc_2": "1. Klik nama Anda di pojok kanan atas.",
+          "desc_3": "2. Pilih menu 'Profil'.",
+          "desc_4": "3. Klik ikon kamera, lalu pilih foto yang tersedia di komputer atau laptop."
+        },
+        "t_2": {
+          "title": "Apakah saya dapat melihat profil Learner lainnya?",
+          "desc_1": "Tidak, Learner hanya dapat melihat profil pribadinya.",
+          "desc_2": "Namun, jika Anda memiliki anggota tim, profil mereka dapat dilihat melalui menu 'Pemantauan Tim'."
+        },
+        "t_3": {
+          "title": "Apakah saya dapat mengirimkan profil saya ke orang lain?",
+          "desc_1": "Ya, klik tombol 'Unduh Profil' untuk menyimpan halaman profil Anda dalam bentuk PDF. Dokumen tersebut dapat dikirimkan sesuai kebutuhan."
+        }
+      },
+      "mylj": {
+        "t_1": {
+          "title": "Apa itu Program?",
+          "desc_1": "Program adalah serangkaian aktivitas pembelajaran terkait topik tertentu yang didaftarkan oleh tim Learning and Development sesuai peran dan/atau kebutuhan Anda. Sebuah program terdiri dari beberapa Kursus. Lihat daftar program pembelajaran yang perlu Anda selesaikan di 'Perjalanan Belajarku'."
+        },
+        "t_2": {
+          "title": "Apa itu Kursus?",
+          "desc_1": "Kursus adalah tahapan-tahapan pembelajaran yang harus diselesaikan dalam sebuah Program. Kursus terdiri dari beberapa modul pembelajaran."
+        },
+        "t_3": {
+          "title": "Apa itu Modul?",
+          "desc_1": "Modul pembelajaran adalah materi atau aktivitas pembelajaran yang harus diselesaikan dalam sebuah Kursus."
+        },
+        "t_4": {
+          "title": "Bagaimana cara mengikuti modul pembelajaran pada 'Perjalanan Belajarku'?",
+          "desc_1": "Program telah didaftarkan sesuai kebutuhan Learner, sehingga Anda tidak perlu mendaftar untuk mulai mengerjakan modul. Setelah didaftarkan, Anda dapat mengakses modul melalui 'Perjalanan Belajarku'",
+          "desc_2": "atau melalui <i>section</i> yang tersedia pada 'Halaman Utama'."
+        },
+        "t_5": {
+          "title": "Bagaimana jika tidak terdapat program pembelajaran pada 'Perjalanan Belajarku'?",
+          "desc_1": "Hubungi Tim Learning and Development untuk didaftarkan pada program belajar Anda."
+        },
+        "t_6": {
+          "title": "Apakah saya harus mempelajari modul secara berurutan pada sebuah Kursus?",
+          "desc_1": "Tidak semua modul harus dikerjakan secara berurutan, tergantung ketentuan dari program pembelajaran tersebut. Jika modul harus dikerjakan berurutan, terdapat ikon gembok pada modul-modul yang belum bisa diakses."
+        },
+        "t_7": {
+          "title": "Apa itu Modul Pendukung?",
+          "desc_1": "Modul Pendukung adalah modul-modul berisi materi pendukung yang dapat membantu penyelesaian modul utama (Modul Esensial)."
+        },
+        "t_8": {
+          "title": "Apakah saya harus mengerjakan Modul Esensial dan Modul Pendukung agar Kursus dianggap selesai?",
+          "desc_1": "Tidak. Anda hanya perlu menyelesaikan Modul Esensial untuk mendapatkan status selesai (centang hijau) pada setiap Kursus."
+        }
+      },
+      "learning_a": {
+        "t_1": {
+          "title": "Bagaimana jika pada bagian modul tertentu terjadi <i>error</i>, misalnya: halaman modul <i>hang/freeze</i> dan <i>blank</i>?",
+          "desc_1": "1. Pastikan koneksi internet dalam keadaan stabil.",
+          "desc_2": "2. Lakukan <i>refresh</i> pada <i>browser</i>.",
+          "desc_3": "Jika tidak ada perubahan, kirim pengaduan ke <strong>contact@digimasia.com</strong> dengan melampirkan <i>screenshoot</i> atau <i>screen record</i> dari tampilan yang mengalami kendala."
+        },
+        "t_2": {
+          "title": "Berapa nilai kelulusan di setiap modul?",
+          "desc_1": "Nilai kelulusan tiap modul berbeda-beda dan akan disampaikan pada masing-masing modul."
+        },
+        "t_3": {
+          "title": "Berapa kali maksimal dapat mengulang 1 modul jika gagal memenuhi minimal nilai kelulusan?",
+          "desc_1": "Setiap modul memiliki maksimal pengerjaan yang berbeda-beda. Perhatikan 'Batas Percobaan' pada informasi yang terdapat pada halaman deskripsi modul."
+        },
+        "t_4": {
+          "title": "Apa yang menandakan bahwa suatu modul sudah diselesaikan?",
+          "desc_1": "Di sebelah kiri daftar modul, terdapat indikator berupa tanda centang. Modul yang sudah diselesaikan akan ditandai dengan ikon centang berwarna hijau."
+        },
+        "t_5": {
+          "title": "Bagaimana jika tanda centang tidak muncul saat saya sudah menyelesaikan modul?",
+          "desc_1": "Hal ini dapat Anda alami karena aplikasi sedang melakukan sinkronisasi data pembelajaran ke server.",
+          "desc_2": "1. Tunggu beberapa menit untuk melihat tanda centang tersebut muncul secara otomatis.",
+          "desc_3": "2. Jika tidak muncul, <i>refresh</i> halaman <i>browser</i>.",
+          "desc_4": "Jika tidak ada perubahan, kirim pengaduan ke <strong>contact@digimasia.com</strong> dengan melampirkan <i>screenshoot</i> atau <i>screen record</i> dari modul yang tidak centang."
+        },
+        "t_6": {
+          "title": "Bagaimana cara mendapatkan lencana?",
+          "desc_1": "Lencana didapatkan setelah menyelesaikan modul tertentu. Tidak semua modul bisa mendapatkan lencana, perhatikan informasi pada deskripsi modul."
+        },
+        "t_7": {
+          "title": "Apa itu 'Peringkat'?",
+          "desc_1": "Menu yang menunjukkan daftar peringkat berdasarkan akumulasi skor Learner pada program pembelajaran tertentu. Learner dapat melihat posisinya secara global (<i>company-wide</i>) maupun dalam timnya sendiri."
+        },
+        "t_8": {
+          "title": "Bagaimana penentuan posisi Learner yang ada di 'Peringkat'?",
+          "desc_1": "Posisi Learner pada 'Peringkat' ditentukan berdasarkan akumulasi skor serta kecepatan Learner menyelesaikan suatu program. Learner dengan skor tertinggi dan tercepat dalam penyelesaian program akan berada di peringkat teratas."
+        },
+        "t_9": {
+          "title": "Apakah saya dapat mempelajari modul-modul di luar 'Perjalanan Belajarku'?",
+          "desc_1": "Ya, modul-modul tersebut dapat Anda akses melalui menu 'Perpustakaan Konten'."
+        },
+        "t_10": {
+          "title": "Apa yang dimaksud dengan 'Koleksi' pada 'Perpustakaan Konten'?",
+          "desc_1": "'Koleksi' berisi daftar konten yang Learner sukai dari 'Perpustakaan Konten'.",
+          "desc_2": "Anda dapat memasukkan konten ke dalam <i>tab</i> 'Koleksi' dengan klik 'Tambah ke Koleksi' pada halaman deskripsi Program/Kursus/Modul."
+        }
+      },
+      "learning_p": {
+        "t_1": {
+          "title": "Apakah semua modul mendapatkan poin pembelajaran?",
+          "desc_1": "Tidak semua modul di-<i>setting</i> mendapat poin. Informasi jumlah dan akumulasi poin yang sudah Anda peroleh dapat dilihat di bagian deskripsi modul."
+        },
+        "t_2": {
+          "title": "Jika seharusnya saya mendapatkan poin, apa yang harus dilakukan saat saya sudah lulus dari modul, namun tidak mendapatkan poin pembelajaran?",
+          "desc_1": "Periksa kembali koneksi internet dan tunggulah hingga beberapa menit sampai poin pembelajaran muncul secara otomatis.",
+          "desc_2": "Jika poin tidak muncul juga, kirimkan pengaduan ke <strong>contact@digimasia.com</strong> dengan melampirkan <i>screenshot</i> atau <i>screen record</i> dari penyelesaian modul."
+        },
+        "t_3": {
+          "title": "Berapa poin pembelajaran yang dapat saya peroleh untuk 1 modul pembelajaran?",
+          "desc_1": "Anda dapat memperoleh poin pembelajaran sejumlah skor Anda pada modul tersebut. Pada beberapa modul, Anda bisa memperoleh poin lebih dari 1x, perhatikan informasi pada deskripsi modul."
+        },
+        "t_4": {
+          "title": "Hal apa yang bisa saya lakukan dengan poin pembelajaran yang saya kumpulkan?",
+          "desc_1": "Poin pembelajaran dapat ditukarkan dengan daftar barang yang tersedia pada menu 'Hadiah'."
+        },
+        "t_5": {
+          "title": "Bagaimana cara menukarkan poin pembelajaran dengan hadiah?",
+          "desc_1": "1. Klik menu 'Hadiah'.",
+          "desc_2": "2. Pilih hadiah yang ingin ditukarkan lalu klik 'Tukar'.",
+          "desc_3": "3. Jika poin Anda cukup, maka dapat dilanjutkan ke proses verifikasi.",
+          "desc_4": "4. Catat kode penukaran yang Anda dapatkan, kemudian informasikan kode tersebut kepada PIC terkait untuk pengambilan barang."
+        }
+      },
+      "m_n_review": {
+        "t_1": {
+          "title": "Apakah Supervisor dapat memantau progres pembelajaran anggota tim?",
+          "desc_1": "Ya, dapat dipantau melalui menu 'Pemantauan Tim'."
+        },
+        "t_2": {
+          "title": "Apakah Supervisor dapat memberikan validasi atas pembelajaran yang sudah dilakukan oleh anggota tim?",
+          "desc_1": "Ya, untuk beberapa pembelajaran yang memerlukan validasi atau penilaian, dapat dilakukan melalui menu 'Penilaian'."
+        },
+        "t_3": {
+          "title": "Bagaimana Supervisor memberikan penilaian?",
+          "desc_1": "1. Klik menu 'Penilaian'.",
+          "desc_2": "2. Muncul daftar modul yang membutuhkan penilaian.",
+          "desc_3": "3. Klik nama anggota tim untuk melihat pengiriman tugas dan memberikan penilaian."
+        }
+      },
+      "data_n_security": {
+        "t_1": {
+          "title": "Apakah aktivitas pembelajaran saya selalu tercatat?",
+          "desc_1": "Ya, seluruh aktivitas belajar Anda melalui aplikasi akan tercatat, seperti modul apa saja yang sudah diselesaikan dan kapan menyelesaikannya."
+        },
+        "t_2": {
+          "title": "Jika <i>login</i> pada komputer atau laptop lain, apakah data pembelajaran akan tetap tercatat?",
+          "desc_1": "Ya, seluruh data pembelajaran pada akun yang sama akan tetap tercatat walaupun <i>login</i> pada komputer atau laptop lain."
+        },
+        "t_3": {
+          "title": "Apakah akses saya boleh digunakan orang lain?",
+          "desc_1": "Tidak diperbolehkan. Dalam akun Anda tersimpan seluruh data pembelajaran, termasuk waktu penyelesaian modul dan nilai yang hanya akan diteruskan kepada Supervisor dan pihak terkait lainnya."
+        },
+        "t_4": {
+          "title": "Apakah akun saya aman?",
+          "desc_1": "Ya, selama Anda tidak memberitahukan nama pengguna dan kata sandi Anda kepada orang lain, akun hanya dapat diakses oleh Anda sendiri."
+        },
+        "t_5": {
+          "title": "Bagaimana cara mengganti kata sandi?",
+          "desc_1": "1. Klik nama Anda di pojok kanan.",
+          "desc_2": "2. Pilih 'Ganti Kata Sandi'.",
+          "desc_3": "3. Masukan kata sandi baru dan konfirmasi kata sandi baru.",
+          "desc_4": "4. Klik 'Ganti Kata Sandi'.",
+          "desc_5": "Ganti kata sandi Anda secara berkala untuk menjamin keamanan akun."
+        },
+        "t_6": {
+          "title": "Apakah Learner lain dapat memantau nilai saya?",
+          "desc_1": "Tidak. Sistem aplikasi memastikan bahwa nilai Anda hanya dapat dipantau secara langsung oleh pihak yang berkepentingan, seperti admin, Tim Learning and Development, serta Supervisor."
+        }
+      },
+      "others": {
+        "t_1": {
+          "title": "Apakah pengerjaan modul berdampak pada pekerjaan saya?",
+          "desc_1": "Ya. Setiap modul pembelajaran pada 'Perjalanan Belajarku' memiliki keterkaitan dengan pengetahuan dan/atau keterampilan terkait pekerjaan Anda saat ini."
+        },
+        "t_2": {
+          "title": "Apakah saya boleh mengakses aplikasi pada jam kerja?",
+          "desc_1": "Boleh, Anda dapat mengakses aplikasi kapan pun sesuai kebutuhan."
+        },
+        "t_3": {
+          "title": "Apakah saya dapat mengakses aplikasi menggunakan <i>smartphone</i> atau <i>tablet</i>?",
+          "desc_1": "Aplikasi web dapat diakses menggunakan <i>browser</i> pada <i>smartphone</i> dan <i>tablet</i>, namun disarankan tetap mengakses menggunakan komputer atau laptop untuk tampilan dan pengalaman yang lebih maksimal."
+        }
+      }
+    }
+  }
+}

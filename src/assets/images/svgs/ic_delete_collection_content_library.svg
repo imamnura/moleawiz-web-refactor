@@ -1,0 +1,6 @@
+<svg id="Button_Remove" data-name="Button Remove" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_1374137" data-name="Group 1374137" transform="translate(-1286 -625)">
+    <rect id="Rectangle_243256" data-name="Rectangle 243256" width="24" height="24" transform="translate(1286 625)" fill="none"/>
+    <path id="Path_210331" data-name="Path 210331" d="M8,18a2.008,2.008,0,0,1-2-2V4a1.927,1.927,0,0,1,.588-1.413A1.926,1.926,0,0,1,8,2H20a1.93,1.93,0,0,1,1.413.587A1.93,1.93,0,0,1,22,4V16a2.006,2.006,0,0,1-2,2Zm0-2H20V4H8ZM4,22a1.923,1.923,0,0,1-1.412-.588A1.923,1.923,0,0,1,2,20V7A.982.982,0,0,1,3,6,.981.981,0,0,1,4,7V20H17a1,1,0,1,1,0,2ZM8,4V4Zm4.6,8.8L14,11.4l1.4,1.4a.99.99,0,0,0,1.4-1.4L15.4,10l1.4-1.4a.99.99,0,0,0-1.4-1.4L14,8.6,12.6,7.2a.99.99,0,0,0-1.4,1.4L12.6,10l-1.4,1.4a.99.99,0,0,0,1.4,1.4Z" transform="translate(1286 625)" fill="#c2272e"/>
+  </g>
+</svg>
